@@ -43,7 +43,12 @@ Description: After the data has been formatted, this task retrieves the processe
 
 **6. load_to_dw:**
 Type: PythonOperator
-Description: The final task in the DAG loads the formatted data into a PostgreSQL database, making it available for querying and analysis. This task establishes a connection to the database and executes the necessary SQL commands to insert the data. It is a critical step for ensuring that the data pipeline delivers usable insights.
+Description: The final task in the DAG loads the formatted data into a PostgreSQL database, making it available for querying and analysis. This task establishes a connection to the database and executes the necessary SQL commands to insert the data. It is a critical step for ensuring that the data pipeline delivers usable insights. The database is then loaded to Metabase for insights visualization.
+
+## Metabase Dashboard
+
+<img width="1070" alt="image" src="https://github.com/user-attachments/assets/738d488a-5943-4cf2-a4ae-e74f202ccf84">
+
    
 ## Getting Started
 
