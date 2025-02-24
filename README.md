@@ -8,7 +8,7 @@ This project automates the process of fetching, processing, and storing stock ma
 
 * **Dataset:** Apple Inc. (AAPL) stock prices.
 * **Data Sources:** Stock market API.
-* **Business Goal:** Provide actionable insights into stock price trends and enable data-driven decision-making.
+* **Business Goal:** Provide insights into stock price trends and enable data-driven decision-making.
 
 ## Data Structure & Initial Checks
 
