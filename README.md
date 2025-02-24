@@ -142,9 +142,6 @@ The `stock_market.py` file defines a Directed Acyclic Graph (DAG) that orchestra
     * Type: PythonOperator
     * Description: Loads the formatted data into PostgreSQL.
 
-**Metabase Dashboard**
-
-[Insert Metabase dashboard image here]
 
 **Getting Started**
 
